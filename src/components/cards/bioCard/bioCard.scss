@@ -1,0 +1,15 @@
+@import "src/styles/variables";
+
+.card {
+  padding: 0 10% 0 13%;
+  width: 82%;
+  background-color: $backgroundColour;
+  box-shadow: 0 0 30px 0 black;
+
+  .number {
+    font-size: 15vw;
+    line-height: 1em;
+    font-family: $fontCinzel;
+    font-weight: 900;
+  }
+}
