@@ -1,0 +1,75 @@
+@import "src/styles/variables";
+
+.portfolioCard {
+  flex-direction: column;
+  padding: 0;
+  padding-bottom: 3%;
+
+  &Header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 10.5% 10% 3% 13%;
+
+    .info {
+      width: 45.4%;
+      padding-left: 0;
+
+      &Title {
+        margin-right: -10px;
+      }
+    }
+  }
+
+  &Body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .swiper {
+      padding-top: 1rem;
+    }
+
+    .swiper-wrapper {
+      will-change: transform;
+      transition-timing-function: linear !important;
+    }
+
+    .workItem {
+      text-align: center;
+
+      &Image {
+        border-radius: 5px;
+        background: center no-repeat;
+        background-size: 50%;
+        padding-top: 80%;
+        margin: 0 auto 1.8rem;
+        box-shadow: 0 20px 30px -15px black;
+        filter: saturate(0.4);
+      }
+
+      &Subtitle {
+        letter-spacing: 3px;
+        font-size: 0.7vw;
+        margin-bottom: 0.5rem;
+        will-change: color;
+      }
+
+      &Title {
+        letter-spacing: 4.5px;
+        font-weight: 600;
+        font-size: 1.1vw;
+        transition: color .5s ease;
+      }
+
+      &:hover {
+        .workItemTitle {
+          color: rgba($cyan, 0.8);
+        }
+      }
+    }
+  }
+}

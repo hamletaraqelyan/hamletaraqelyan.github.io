@@ -1,0 +1,53 @@
+@import "variables";
+
+.textCyan {
+  color: $cyan;
+}
+
+.textUppercase {
+  text-transform: uppercase;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.fontPlayfair {
+  font-family: $fontPlayfair;
+}
+
+.horizontalLine {
+  height: 1px;
+  background-color: #333333;
+  margin: 1.3rem 0 2.2rem;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 4px;
+    background-color: $cyan;
+    width: 3.7vw;
+  }
+
+  &.right {
+    &::before {
+      left: unset;
+      right: 0;
+    }
+  }
+
+  &.center {
+    &::before {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+}

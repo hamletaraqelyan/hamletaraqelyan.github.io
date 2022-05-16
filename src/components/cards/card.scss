@@ -1,0 +1,62 @@
+@import "src/styles/variables";
+
+.card {
+  position: relative;
+  width: 82.5%;
+  background-color: $backgroundColour;
+  box-shadow: 0 0 50px -15px black;
+  padding: 10.5% 10% 3% 13%;
+  display: flex;
+  align-items: flex-start;
+  margin-top: -5rem;
+
+  @for $i from 1 through 10 {
+    &:nth-child(#{10 - $i}) {
+      z-index: #{$i};
+    }
+  }
+
+  &:first-of-type {
+    margin-top: 0;
+    padding: 6% 10% 5.5% 13%;
+  }
+
+  &:nth-of-type(2n) {
+    margin-left: auto;
+  }
+
+  .number {
+    -webkit-font-smoothing: antialiased;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 131%;
+    background-position: center;
+    transition: background-position .2s linear;
+    will-change: background-position;
+  }
+
+  .info {
+    &Label {
+      font-weight: 300;
+      font-size: .9vw;
+      letter-spacing: 4px;
+    }
+
+    &Title {
+      font-weight: 600;
+      letter-spacing: 10px;
+      margin-top: .6rem;
+    }
+
+    &Text {
+      text-align: justify;
+      font-size: .9vw;
+      margin-bottom: 2rem;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
