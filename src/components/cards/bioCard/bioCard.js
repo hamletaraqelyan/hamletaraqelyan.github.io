@@ -1,6 +1,5 @@
 import '../card.scss'
 import './bioCard.scss';
-import {useEffect, useRef} from "react";
 import AnimatedNumbers from "../../animatedNumbers/AnimatedNumbers";
 
 const BioCard = () => {
@@ -11,14 +10,18 @@ const BioCard = () => {
                 <p className="infoLabel textCyan textUppercase">About me</p>
                 <h2 className='infoTitle textUppercase fontPlayfair'>My biography</h2>
                 <div className='horizontalLine'/>
-                <p className="infoText">Hey! My name is Richard and I’m NY based writer. I write about people, their
-                    characters, lives and their complicated destinies. I find my inspiration in diving into people’s
-                    eyes, souls, during our communication with each other. My books are full of breathtaking plots and
-                    strong characters.</p>
-                <p className="infoText">I was born in New York and have been living here for 30 years. I studied
-                    Literature in St. George College and since my graduation I dedicated my life to writing. I managed
-                    to release my first book when I was 24. From that time I have written 6 books more and continue
-                    working on other projects.</p>
+                <p className="infoText">
+                    Hey! My name is Hamlet. I was born in Armenia and have been living here
+                    for {new Date().getFullYear() - new Date('10-27-1995').getFullYear()} years. I studied at the
+                    National University of Architecture and Construction of Armenia as an Engineer and graduated in 2017
+                    with - a bachelor's degree and in 2019 with - Master’s degree.
+                </p>
+                <p className="infoText">
+                    Furthermore, now I’m a front-end developer with
+                    over {new Date().getFullYear() - new Date('08-01-2019').getFullYear()} years of commercial
+                    experience. I'm experienced in building and maintaining responsive and Cross-Browser, client-side &
+                    server-side applications. I'm eager to take on new challenges and meet new people.
+                </p>
             </div>
         </div>
     );

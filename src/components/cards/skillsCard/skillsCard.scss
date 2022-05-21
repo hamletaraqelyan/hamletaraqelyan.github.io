@@ -1,0 +1,21 @@
+@import "src/styles/variables";
+
+.skillsCard {
+  .skillsList {
+    padding-left: .7rem;
+
+    ul {
+      columns: 3;
+      -webkit-columns: 3;
+      -moz-columns: 3;
+
+      li {
+        margin-bottom: 0.5rem;
+
+        &::marker {
+          color: rgba($cyan, 0.8);
+        }
+      }
+    }
+  }
+}

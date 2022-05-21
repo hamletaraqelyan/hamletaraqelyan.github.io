@@ -34,6 +34,7 @@
     background-position: center;
     transition: background-position .2s linear;
     will-change: background-position;
+    cursor: grabbing;
   }
 
   .info {

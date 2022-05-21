@@ -1,0 +1,59 @@
+@import "src/styles/variables";
+
+.contactCard {
+  .contactList {
+    list-style-type: none;
+
+    li {
+      width: max-content;
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.5rem;
+      position: relative;
+
+      svg {
+        pointer-events: none;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 1.5rem;
+        height: 1.5rem;
+
+        path {
+          transition: fill .4s ease;
+          will-change: fill;
+        }
+      }
+
+      a {
+        padding: 0.5rem;
+        padding-left: calc(1.5rem + 1rem);
+      }
+
+      &:hover {
+        svg {
+          path {
+            fill: rgba($cyan, 0.9);
+          }
+        }
+      }
+    }
+  }
+
+  .portfolioCardBody {
+    .info {
+      display: flex;
+      width: 100%;
+
+      &Text {
+        width: 40%;
+        margin-bottom: 0;
+      }
+
+      &Label {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

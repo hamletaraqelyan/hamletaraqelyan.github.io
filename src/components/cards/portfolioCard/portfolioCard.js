@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import "./portfolioCard.scss"
 import AnimatedNumbers from "../../animatedNumbers/AnimatedNumbers";
 import {Autoplay, Navigation} from 'swiper';
@@ -7,6 +7,7 @@ import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
+import { ReactComponent as ArrowIcon }from "../../../media/icons/arrow.svg";
 
 const PortfolioCard = () => {
     const workData = [
@@ -64,7 +65,15 @@ const PortfolioCard = () => {
             subtitle: "Best Western International",
             image: "/media/works/logos/congress.svg"
         },
-    ]
+        {
+            url: "https://sergeysmbatyan.com/",
+            title: "Sergey Smbatyan",
+            subtitle: "Conductor",
+            image: "/media/works/logos/smbatyan.png"
+        },
+    ];
+    const swiperRef = useRef(null);
+
 
     return (
         <div className="portfolioCard card">
@@ -78,30 +87,49 @@ const PortfolioCard = () => {
             </div>
             <div className="portfolioCardBody">
                 <Swiper
+                    ref={swiperRef}
                     modules={[Navigation, Autoplay]}
-                    autoplay={{disableOnInteraction: false, delay: 0}}
-                    speed={10000}
+                    autoplay={{disableOnInteraction: false, delay: 1000}}
+                    speed={1500}
                     // navigation
                     loop
                     loopedSlides={workData.length}
-                    allowTouchMove={false}
+                    allowTouchMove={true}
                     observer
-                    slidesPerView={'3'}
-                    spaceBetween={'5%'}
                     onSwiper={(swiper) => console.log('swiper built')}
-
+                    spaceBetween='5%'
+                    slidesPerView='1.5'
+                    centeredSlides={true}
+                    breakpoints={{
+                        // when window width is >= 768px
+                        768: {
+                            spaceBetween: '5%',
+                            slidesPerView: '3.7',
+                            centeredSlides: true,
+                            allowTouchMove: false
+                        },
+                    }}
                 >
                     {workData?.map((work, i) =>
                         <SwiperSlide key={i}>
                             <a href={work.url} target='_blank' rel='noreferrer noopener' className='workItem' key={i}>
-                                <div className='workItemImage' style={{backgroundImage: `url(${work.image})`}}/>
+                                <div className='workItemImage'>
+                                    <div className='workItemImageItem' style={{backgroundImage: `url(${work.image})`}}/>
+                                </div>
                                 <p className='workItemSubtitle infoLabel textUppercase textCyan'>{work.subtitle}</p>
                                 <p className='fontPlayfair workItemTitle textUppercase'>{work.title}</p>
                             </a>
                         </SwiperSlide>
                     )}
                 </Swiper>
-
+                <div className='swiperBtn prev'
+                     onClick={() => swiperRef.current.swiper.slidePrev()}>
+                    <ArrowIcon/>
+                </div>
+                <div className='swiperBtn'
+                     onClick={() => swiperRef.current.swiper.slideNext()}>
+                    <ArrowIcon/>
+                </div>
             </div>
         </div>
     )

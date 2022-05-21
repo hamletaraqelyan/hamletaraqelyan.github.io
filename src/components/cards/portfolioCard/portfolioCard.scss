@@ -28,14 +28,46 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 
     .swiper {
-      padding-top: 1rem;
+      &-wrapper {
+        will-change: transform;
+      }
     }
 
-    .swiper-wrapper {
-      will-change: transform;
-      transition-timing-function: linear !important;
+    .swiperBtn {
+      width: 1.5rem;
+      height: 1.5rem;
+      position: absolute;
+      top: 30%;
+      right: 6%;
+      cursor: pointer;
+      mix-blend-mode: difference;
+      z-index: 1;
+
+      &.prev {
+        right: unset;
+        left: 6%;
+        transform: scaleX(-1);
+      }
+
+      svg {
+        width: 100%;
+        height: 100%;
+
+        path {
+          transition: fill .4s ease;
+        }
+      }
+
+      &:hover {
+        svg {
+          path {
+            fill: $cyan;
+          }
+        }
+      }
     }
 
     .workItem {
@@ -43,12 +75,22 @@
 
       &Image {
         border-radius: 5px;
-        background: center no-repeat;
-        background-size: 50%;
-        padding-top: 80%;
         margin: 0 auto 1.8rem;
         box-shadow: 0 20px 30px -15px black;
         filter: saturate(0.4);
+        padding-top: 80%;
+        position: relative;
+
+        &Item {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background: center no-repeat;
+          background-size: contain;
+          width: 70%;
+          padding-top: 50%;
+        }
       }
 
       &Subtitle {

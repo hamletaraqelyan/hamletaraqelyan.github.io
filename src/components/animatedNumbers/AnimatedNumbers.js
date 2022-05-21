@@ -15,8 +15,8 @@ const AnimatedNumbers = ({text, image}) => {
                 // const elTop = actionText.offset().top + elh / 2;
                 // const elLeft = actionText.offset().left + elw / 2;
                 //
-                const moveX = -(elw - x) / 8;
-                const moveY = -(elh - y) / 8;
+                const moveX = -(elw - x) / 12;
+                const moveY = -(elh - y) / 12;
 
                 element.style.backgroundPosition = `${moveX}% ${moveY}%`;
             })
