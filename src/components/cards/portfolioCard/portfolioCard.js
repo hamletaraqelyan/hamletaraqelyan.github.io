@@ -96,7 +96,7 @@ const PortfolioCard = () => {
                     loopedSlides={workData.length}
                     allowTouchMove={true}
                     observer
-                    onSwiper={(swiper) => console.log('swiper built')}
+                    // onSwiper={(swiper) => console.log('swiper built')}
                     spaceBetween='5%'
                     slidesPerView='1.5'
                     centeredSlides={true}

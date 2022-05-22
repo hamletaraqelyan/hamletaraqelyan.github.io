@@ -1,6 +1,9 @@
 @import "src/styles/variables";
 
 .card {
+  &.bioCard {
+    pointer-events: none;
+  }
   .number {
     display: flex;
     -webkit-box-orient: horizontal;

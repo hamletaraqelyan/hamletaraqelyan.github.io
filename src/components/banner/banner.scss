@@ -4,13 +4,15 @@
   display: flex;
   align-items: center;
   position: relative;
+  pointer-events: none;
 
   &Image {
-    background: center no-repeat url("../../../public/media/avatar_1.png");
+    background: center no-repeat url("../../../public/media/avatar_2.png");
     background-size: cover;
     width: 62%;
     padding-top: 48%;
-    filter: brightness(0.8);
+    filter: brightness(0.9);
+    opacity: 0.8;
   }
 
   &Info {

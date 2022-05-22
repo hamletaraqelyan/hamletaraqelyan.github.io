@@ -32,9 +32,8 @@
     background-repeat: no-repeat;
     background-size: 131%;
     background-position: center;
-    transition: background-position .2s linear;
-    will-change: background-position;
-    cursor: grabbing;
+    //transition: background-position .2s linear;
+    //will-change: background-position;
   }
 
   .info {
