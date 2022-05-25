@@ -6,6 +6,18 @@
     "image": "/media/works/logos/maeutica.png"
   },
   {
+    "url": "https://na.dev.apps.codics.solutions/",
+    "title": "NATIONAL ASSEMBLY",
+    "subtitle": "Armenian",
+    "image": "/media/works/logos/na.png"
+  },
+  {
+    "url": "https://imnairi.am/",
+    "title": "Nairi",
+    "subtitle": "Insurance",
+    "image": "/media/works/logos/nairi.png"
+  },
+  {
     "url": "https://musicroom.info/",
     "subtitle": "GREAT CONCERTS TO BE MEASURED",
     "title": "musicroom",
@@ -42,16 +54,16 @@
     "image": "/media/works/logos/ishkhanov.svg"
   },
   {
-    "url": "https://dmitryishkhanov.com/",
+    "url": "https://la-galleria.codics.solutions/",
     "title": "LaGalleria",
     "subtitle": "Luxury Boutiques",
     "image": "/media/works/logos/lagalleria_1.svg"
   },
   {
-    "url": "https://dmitryishkhanov.com/",
+    "url": "https://www.congresshotelyerevan.com/",
     "title": "Congress Hotel yerevan",
     "subtitle": "Best Western International",
-    "image": "/media/works/logos/congress.svg"
+    "image": "/media/works/logos/congressLogo.png"
   },
   {
     "url": "https://sergeysmbatyan.com/",

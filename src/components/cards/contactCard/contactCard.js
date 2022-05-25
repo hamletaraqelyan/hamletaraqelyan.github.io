@@ -12,7 +12,7 @@ const ContactCard = () => {
     return (
         <div className="portfolioCard contactCard card">
             <div className="portfolioCardHeader">
-                <AnimatedNumbers text={'04'} image={'/media/forest_5.jpeg'}/>
+                <AnimatedNumbers text={'04'} image={'/media/forest_5.webp'}/>
                 <div className="info textRight">
                     <p className="infoLabel textCyan textUppercase">GET IN TOUCH</p>
                     <h2 className='infoTitle textUppercase fontPlayfair'>CONTACT ME</h2>

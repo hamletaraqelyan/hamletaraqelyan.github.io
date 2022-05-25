@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/342.aed6a55d.chunk.css","mappings":"AAAA,cACE,mBAAoB","sources":["components/cardsWrapper/cardsWrapper.scss"],"sourcesContent":[".cardsWrapper {\n  padding-bottom: 3rem;\n}\n"],"names":[],"sourceRoot":""}

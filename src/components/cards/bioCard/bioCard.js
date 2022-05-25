@@ -5,7 +5,7 @@ import AnimatedNumbers from "../../animatedNumbers/AnimatedNumbers";
 const BioCard = () => {
     return (
         <div className="bioCard card">
-            <AnimatedNumbers text={'01'} image={'/media/forest.jpeg'}/>
+            <AnimatedNumbers text={'01'} image={'/media/forest.webp'}/>
             <div className="info">
                 <p className="infoLabel textCyan textUppercase">About me</p>
                 <h2 className='infoTitle textUppercase fontPlayfair'>My biography</h2>
@@ -21,6 +21,12 @@ const BioCard = () => {
                     over {new Date().getFullYear() - new Date('08-01-2019').getFullYear()} years of commercial
                     experience. I'm experienced in building and maintaining responsive and Cross-Browser, client-side &
                     server-side applications. I'm eager to take on new challenges and meet new people.
+                </p>
+                <p className="infoText">
+                    <a href="/files/Hamlet_Araqelyan_CV.pdf" target="_blank" rel='nofollow noreferrer noopener' className='cta'>
+                        Download CV
+                        <span className='arrowIcon'/>
+                    </a>
                 </p>
             </div>
         </div>

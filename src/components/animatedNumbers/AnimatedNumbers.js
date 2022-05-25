@@ -1,8 +1,7 @@
-import React, {memo, useEffect, useRef} from 'react';
+import React, {memo, useMemo, useRef} from 'react';
 
 const AnimatedNumbers = ({text, image}) => {
-    const numberRef = useRef(null);
-
+    // const numberRef = useRef(null);
     // useEffect(() => {
     //     if (numberRef) {
     //         const element = numberRef.current;
@@ -23,11 +22,13 @@ const AnimatedNumbers = ({text, image}) => {
     //     }
     // }, [])
 
-    return (
-        <div ref={numberRef} className='number' style={{backgroundImage: `url(${image})`}}>
+    return useMemo(() => (
+        <div className='number' style={{backgroundImage: `url(${image})`}}
+            // ref={numberRef}
+        >
             <p>{text}</p>
         </div>
-    );
+    ), [])
 };
 
-export default memo(AnimatedNumbers);
+export default AnimatedNumbers;

@@ -79,6 +79,8 @@
         filter: saturate(0.4);
         padding-top: 80%;
         position: relative;
+        transition: filter .5s ease;
+        will-change: filter;
 
         &Item {
           position: absolute;
@@ -107,8 +109,13 @@
       }
 
       &:hover {
-        .workItemTitle {
-          color: rgba($cyan, 0.8);
+        .workItem{
+          &Image{
+            filter: saturate(1);
+          }
+          &Title {
+            color: rgba($cyan, 0.8);
+          }
         }
       }
     }

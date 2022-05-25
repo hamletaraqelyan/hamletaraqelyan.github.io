@@ -5,7 +5,7 @@ import AnimatedNumbers from "../../animatedNumbers/AnimatedNumbers";
 const SkillsCard = () => {
     return (
         <div className='card skillsCard'>
-            <AnimatedNumbers text={'02'} image={'/media/forest_3.jpeg'}/>
+            <AnimatedNumbers text={'02'} image={'/media/forest_3.webp'}/>
             <div className="info textRight">
                 <p className="infoLabel textCyan textUppercase">Technologies I've worked with</p>
                 <h2 className='infoTitle textUppercase fontPlayfair'>Skills</h2>

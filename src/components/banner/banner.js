@@ -1,7 +1,8 @@
 import './banner.scss';
+import {useMemo} from "react";
 
 const Banner = () => {
-    return (
+    return useMemo(() => (
         <div className="banner">
             <div className='bannerImage'/>
             <div className='bannerInfo'>
@@ -12,7 +13,7 @@ const Banner = () => {
                 <p>Front-End | React.js developer</p>
             </div>
         </div>
-    );
+    ), []);
 }
 
 export default Banner;

@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import "./portfolioCard.scss"
 import AnimatedNumbers from "../../animatedNumbers/AnimatedNumbers";
 import {Autoplay, Navigation} from 'swiper';
@@ -16,7 +16,7 @@ const PortfolioCard = () => {
     return (
         <div className="portfolioCard card">
             <div className="portfolioCardHeader">
-                <AnimatedNumbers text={'03'} image={'/media/forest_2.jpeg'}/>
+                <AnimatedNumbers text={'03'} image={'/media/forest_2.webp'}/>
                 <div className="info">
                     <p className="infoLabel textCyan textUppercase">Latest works</p>
                     <h2 className='infoTitle textUppercase fontPlayfair'>Portfolio</h2>
@@ -31,7 +31,7 @@ const PortfolioCard = () => {
                     speed={1500}
                     // navigation
                     loop
-                    loopedSlides={portfolioData.length}
+                    loopedSlides={portfolioData.length/2}
                     allowTouchMove={true}
                     observer
                     // onSwiper={(swiper) => console.log('swiper built')}

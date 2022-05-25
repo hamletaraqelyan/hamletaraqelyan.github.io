@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useMemo} from 'react';
 import "./particles.scss"
 
 const Particles = () => {
@@ -190,9 +190,7 @@ const Particles = () => {
         })();
     }, [])
 
-    return (
-        <canvas id='particles'/>
-    );
+    return useMemo(() => <canvas id='particles'/>, []);
 };
 
 export default Particles;

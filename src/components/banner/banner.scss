@@ -7,7 +7,7 @@
   pointer-events: none;
 
   &Image {
-    background: center no-repeat url("../../../public/media/avatar_2.png");
+    background: center no-repeat url("../../../public/media/avatar.webp");
     background-size: cover;
     width: 62%;
     padding-top: 48%;
@@ -33,7 +33,7 @@
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
-      background-image: url('../../../public/media/trees.jpeg');
+      background-image: url('../../../public/media/trees.webp');
 
       h4 {
         font-size: 3.2vw;

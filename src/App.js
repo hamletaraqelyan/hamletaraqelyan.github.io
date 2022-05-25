@@ -1,13 +1,14 @@
+import {lazy} from 'react';
 import './styles/App.scss';
-import Banner from "./components/banner/banner";
-import CardsWrapper from "./components/cardsWrapper/cardsWrapper";
-import Particles from "./components/particles/particles";
+// const Particles = lazy(() => import("./components/particles/particles"));
+const Banner = lazy(() => import("./components/banner/banner"));
+const CardsWrapper = lazy(() => import("./components/cardsWrapper/cardsWrapper"));
 
 const App = () => {
 
     return (
         <div className="App">
-            <Particles/>
+            {/*<Particles/>*/}
             <Banner/>
             <CardsWrapper/>
         </div>
