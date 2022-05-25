@@ -14,11 +14,11 @@
       svg {
         pointer-events: none;
         position: absolute;
-        left: 0;
+        left: -1px;
         top: 50%;
         transform: translateY(-50%);
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 1.6rem;
+        height: 1.6rem;
 
         path {
           transition: fill .4s ease;
@@ -39,6 +39,11 @@
         }
       }
     }
+  }
+
+  .portfolioCardHeader {
+    flex-direction: row-reverse;
+    padding: 10.5% 10% 0 13%;
   }
 
   .portfolioCardBody {

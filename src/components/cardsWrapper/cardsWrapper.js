@@ -8,8 +8,8 @@ const CardsWrapper = () => {
     return (
         <div className="cardsWrapper">
             <BioCard />
-            <PortfolioCard />
             <SkillsCard />
+            <PortfolioCard />
             <ContactCard />
         </div>
     );

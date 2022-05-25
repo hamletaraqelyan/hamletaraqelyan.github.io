@@ -40,11 +40,23 @@
         font-weight: 500;
         padding-left: 11vw;
         font-style: italic;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: inherit;
       }
 
       h1{
         margin-top: -6.5vw;
         font-size: 12vw;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: inherit;
       }
     }
 

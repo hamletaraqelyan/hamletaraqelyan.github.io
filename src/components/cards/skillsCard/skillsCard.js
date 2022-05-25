@@ -5,11 +5,11 @@ import AnimatedNumbers from "../../animatedNumbers/AnimatedNumbers";
 const SkillsCard = () => {
     return (
         <div className='card skillsCard'>
-            <AnimatedNumbers text={'03'} image={'/media/forest_3.jpeg'}/>
-            <div className="info">
+            <AnimatedNumbers text={'02'} image={'/media/forest_3.jpeg'}/>
+            <div className="info textRight">
                 <p className="infoLabel textCyan textUppercase">Technologies I've worked with</p>
                 <h2 className='infoTitle textUppercase fontPlayfair'>Skills</h2>
-                <div className='horizontalLine'/>
+                <div className='horizontalLine right'/>
                 <div className="infoText skillsList">
                     <ul>
                         <li>React.js</li>

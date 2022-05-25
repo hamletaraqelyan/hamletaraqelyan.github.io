@@ -20,7 +20,7 @@ const Particles = () => {
             // avoid nodes spreading
             ANCHOR_LENGTH = 20;
             // highlight radius
-            MOUSE_RADIUS = 200;
+            MOUSE_RADIUS = 150;
 
             circ = 2 * Math.PI;
             nodes = [];
@@ -50,7 +50,7 @@ const Particles = () => {
             }
 
             Node.prototype.drawNode = function() {
-                var color = "rgba(255, 0, 0, " + this.brightness + ")";
+                var color = "rgba(149, 176, 176, " + this.brightness + ")";
                 ctx.beginPath();
                 ctx.arc(this.x, this.y, 2 * this.radius + 2 * this.siblings.length / SIBLINGS_LIMIT, 0, circ);
                 ctx.fillStyle = color;
@@ -59,7 +59,7 @@ const Particles = () => {
 
             Node.prototype.drawConnections = function() {
                 for (var i = 0; i < this.siblings.length; i++) {
-                    var color = "rgba(255, 0, 0, " + this.brightness + ")";
+                    var color = "rgba(149, 176, 176, " + this.brightness + ")";
                     ctx.beginPath();
                     ctx.moveTo(this.x, this.y);
                     ctx.lineTo(this.siblings[i].x, this.siblings[i].y);

@@ -26,14 +26,25 @@
   }
 
   .number {
+    user-select: none;
     -webkit-font-smoothing: antialiased;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-repeat: no-repeat;
-    background-size: 131%;
+    background-size: cover;
     background-position: center;
     //transition: background-position .2s linear;
     //will-change: background-position;
+
+    &>p {
+      -webkit-font-smoothing: antialiased;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-repeat: no-repeat;
+      background-image: inherit;
+      background-position: center;
+      background-size: cover;
+    }
   }
 
   .info {
