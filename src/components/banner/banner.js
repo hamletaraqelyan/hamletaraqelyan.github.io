@@ -10,7 +10,9 @@ const Banner = () => {
                     <h4>Arakelyan</h4>
                     <h1>Hamlet</h1>
                 </div>
-                <p>Front-End | React.js developer</p>
+                <p>
+                    Front-End | React.js developer
+                </p>
             </div>
         </div>
     ), []);
