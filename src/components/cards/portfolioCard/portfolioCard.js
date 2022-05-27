@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useRef} from 'react';
 import "./portfolioCard.scss"
 import AnimatedNumbers from "../../animatedNumbers/AnimatedNumbers";
 import {Autoplay, Navigation} from 'swiper';
@@ -8,7 +8,7 @@ import portfolioData from "../../../data/portfolio.json"
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
-import { ReactComponent as ArrowIcon }from "../../../media/icons/arrow.svg";
+import {ReactComponent as ArrowIcon} from "../../../media/icons/arrow.svg";
 
 const PortfolioCard = () => {
     const swiperRef = useRef(null);
@@ -31,7 +31,7 @@ const PortfolioCard = () => {
                     speed={1500}
                     // navigation
                     loop
-                    loopedSlides={portfolioData.length/2}
+                    loopedSlides={portfolioData.length / 2}
                     allowTouchMove={true}
                     observer
                     // onSwiper={(swiper) => console.log('swiper built')}

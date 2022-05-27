@@ -1,4 +1,4 @@
-import React, {memo, useMemo, useRef} from 'react';
+import React, {useMemo} from 'react';
 
 const AnimatedNumbers = ({text, image}) => {
     // const numberRef = useRef(null);
@@ -28,7 +28,7 @@ const AnimatedNumbers = ({text, image}) => {
         >
             <p>{text}</p>
         </div>
-    ), [])
+    ), [text,image])
 };
 
 export default AnimatedNumbers;
