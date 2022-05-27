@@ -109,14 +109,47 @@
       }
 
       &:hover {
-        .workItem{
-          &Image{
+        .workItem {
+          &Image {
             filter: saturate(1);
           }
+
           &Title {
             color: rgba($cyan, 0.8);
           }
         }
+      }
+    }
+  }
+}
+
+@media(max-width: 480px) {
+  .portfolioCard {
+    &Header {
+      padding: 8%;
+      padding-bottom: 0;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .info {
+        width: 100%;
+      }
+    }
+
+    &Body {
+      padding-bottom: 7%;
+      .workItem {
+        &Subtitle {
+          font-size: 2.5vw;
+        }
+
+        &Title {
+          font-size: 3.2vw;
+        }
+      }
+
+      .swiperBtn {
+        top: 26%;
       }
     }
   }

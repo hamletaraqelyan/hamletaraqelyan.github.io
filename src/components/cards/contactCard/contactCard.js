@@ -16,7 +16,7 @@ const ContactCard = () => {
                 <div className="info textRight">
                     <p className="infoLabel textCyan textUppercase">GET IN TOUCH</p>
                     <h2 className='infoTitle textUppercase fontPlayfair'>CONTACT ME</h2>
-                    <div className='horizontalLine right'/>
+                    <div className='horizontalLine right mobileCenter'/>
                 </div>
             </div>
             <div className="portfolioCardBody">

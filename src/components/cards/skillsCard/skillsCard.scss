@@ -28,3 +28,20 @@
     }
   }
 }
+
+@media(max-width: 480px) {
+  .skillsCard {
+    padding: 8%;
+    flex-direction: column;
+    //align-items: center;
+
+    .skillsList {
+      padding-left: 1rem;
+      ul {
+        li {
+          font-size: 3.5vw;
+        }
+      }
+    }
+  }
+}

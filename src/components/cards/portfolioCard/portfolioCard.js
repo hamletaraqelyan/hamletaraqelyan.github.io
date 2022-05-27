@@ -20,7 +20,7 @@ const PortfolioCard = () => {
                 <div className="info">
                     <p className="infoLabel textCyan textUppercase">Latest works</p>
                     <h2 className='infoTitle textUppercase fontPlayfair'>Portfolio</h2>
-                    <div className='horizontalLine'/>
+                    <div className='horizontalLine mobileCenter'/>
                 </div>
             </div>
             <div className="portfolioCardBody">

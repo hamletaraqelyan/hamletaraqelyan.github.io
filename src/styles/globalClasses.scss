@@ -96,3 +96,14 @@
     }
   }
 }
+
+@media(max-width: 480px){
+  .horizontalLine {
+
+    &::before {
+      left: 0 !important;
+      width: 15vw;
+      height: 3px;
+    }
+  }
+}

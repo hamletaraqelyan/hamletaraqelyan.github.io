@@ -4,7 +4,6 @@
   display: flex;
   align-items: center;
   position: relative;
-  pointer-events: none;
 
   &Image {
     background: center no-repeat url("../../../public/media/avatar.webp");
@@ -70,6 +69,43 @@
       letter-spacing:  7.2px;
       //word-spacing: 5px;
       text-align: center;
+    }
+  }
+}
+
+@media(max-width: 480px) {
+  .banner {
+    &Image {
+      width: 100%;
+      padding-top: 77%;
+    }
+
+    &Info {
+      width: 100%;
+      transform: translateY(0);
+      top: unset;
+      bottom: 10%;
+      margin-left: 0;
+      text-align: center;
+
+      .backgroundText{
+        h1{
+          font-size: 20vw;
+          margin-top: -10vw;
+        }
+
+        h4 {
+          font-size: 5.5vw;
+          padding-left: 0;
+          margin-left: -7vw;
+        }
+      }
+
+      p {
+        font-size: 3vw;
+        letter-spacing: 4px;
+        color: $cyan;
+      }
     }
   }
 }

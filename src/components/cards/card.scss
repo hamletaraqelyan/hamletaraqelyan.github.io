@@ -33,10 +33,24 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    -webkit-box-align: center;
+    font-size: 16.9vw;
+    line-height: 1em;
+    font-family: $fontCinzel;
+    font-weight: 900;
     //transition: background-position .2s linear;
     //will-change: background-position;
 
-    &>p {
+    & > p {
       -webkit-font-smoothing: antialiased;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -48,6 +62,8 @@
   }
 
   .info {
+    padding-left: 12.5%;
+
     &Label {
       font-weight: 300;
       font-size: .9vw;
@@ -58,16 +74,51 @@
       font-weight: 600;
       letter-spacing: 10px;
       margin-top: .6rem;
+      font-size: 1.85vw;
     }
 
     &Text {
       text-align: justify;
-      font-size: .9vw;
+      font-size: 1vw;
       margin-bottom: 2rem;
 
       &:last-of-type {
         margin-bottom: 0;
       }
+    }
+  }
+}
+
+@media(max-width: 480px) {
+  .card {
+    width: 100%;
+    margin-top: 0;
+
+    .number {
+      font-size: 23vw;
+      letter-spacing: 5px;
+      margin-bottom: 2rem;
+    }
+
+    .info {
+      text-align: left;
+      &Label {
+        font-size: 2.6vw;
+        font-weight: 400;
+      }
+
+      &Title {
+        margin-top: .3rem;
+        font-size: 5.5vw;
+      }
+
+      &Text {
+        font-size: 3.5vw;
+      }
+    }
+
+    &:first-of-type {
+      padding: 8%;
     }
   }
 }

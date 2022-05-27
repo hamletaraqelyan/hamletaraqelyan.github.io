@@ -62,3 +62,40 @@
     }
   }
 }
+
+@media(max-width: 480px) {
+  .contactCard {
+    padding: 8%;
+    .portfolioCard{
+      &Header {
+        flex-direction: column;
+        padding: 0  ;
+      }
+
+      &Body{
+        padding-bottom: 0;
+        .info {
+          flex-direction: column;
+          padding-left: 0;
+
+          &Text {
+            width: 100%;
+
+            &:not(:last-of-type) {
+              margin-bottom: 2rem;
+            }
+
+            .contactList {
+              li {
+                svg {
+                  width: 1.7rem;
+                  height: 1.7rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

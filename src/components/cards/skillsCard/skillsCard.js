@@ -9,7 +9,7 @@ const SkillsCard = () => {
             <div className="info textRight">
                 <p className="infoLabel textCyan textUppercase">Technologies I've worked with</p>
                 <h2 className='infoTitle textUppercase fontPlayfair'>Skills</h2>
-                <div className='horizontalLine right'/>
+                <div className='horizontalLine right mobileCenter'/>
                 <div className="infoText skillsList">
                     <ul>
                         <li>React.js</li>
