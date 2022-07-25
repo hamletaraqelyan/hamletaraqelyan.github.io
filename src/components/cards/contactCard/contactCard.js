@@ -6,7 +6,7 @@ import {ReactComponent as MailIcon} from "../../../media/icons/mail.svg";
 import {ReactComponent as TelegramIcon} from "../../../media/icons/telegram.svg";
 import {ReactComponent as LinkedinIcon} from "../../../media/icons/linkedin.svg";
 import {ReactComponent as FacebookIcon} from "../../../media/icons/facebook.svg";
-import {ReactComponent as InstagramIcon} from "../../../media/icons/instagram.svg";
+import {ReactComponent as GithubIcon} from "../../../media/icons/github.svg";
 
 const ContactCard = () => {
     return (
@@ -43,15 +43,15 @@ const ContactCard = () => {
                         <ul className='contactList'>
                             <li>
                                 <LinkedinIcon/>
-                                <a href="https://www.linkedin.com/in/hamlet-araqelyan-a600b81a4/" rel='noopener noreferrer'>Linkedin</a>
+                                <a target='_blank' href="https://www.linkedin.com/in/hamlet-araqelyan-a600b81a4/" rel='noopener noreferrer'>Linkedin</a>
                             </li>
                             <li>
                                 <FacebookIcon/>
-                                <a href="https://www.facebook.com/1995Hamlet" rel='noopener noreferrer'>Facebook</a>
+                                <a target='_blank' href="https://www.facebook.com/1995Hamlet" rel='noopener noreferrer'>Facebook</a>
                             </li>
                             <li>
-                                <InstagramIcon/>
-                                <a href="https://www.instagram.com/hamletaraqelyan/" rel='noopener noreferrer'>Instagram</a>
+                                <GithubIcon/>
+                                <a target='_blank' href="https://github.com/hamletaraqelyan" rel='noopener noreferrer'>Github</a>
                             </li>
                         </ul>
                     </div>
