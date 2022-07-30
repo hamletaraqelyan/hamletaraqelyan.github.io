@@ -46,13 +46,14 @@ const ContactCard = () => {
                                 <a target='_blank' href="https://www.linkedin.com/in/hamlet-araqelyan-a600b81a4/" rel='noopener noreferrer'>Linkedin</a>
                             </li>
                             <li>
-                                <FacebookIcon/>
-                                <a target='_blank' href="https://www.facebook.com/1995Hamlet" rel='noopener noreferrer'>Facebook</a>
-                            </li>
-                            <li>
                                 <GithubIcon/>
                                 <a target='_blank' href="https://github.com/hamletaraqelyan" rel='noopener noreferrer'>Github</a>
                             </li>
+                            <li>
+                                <FacebookIcon/>
+                                <a target='_blank' href="https://www.facebook.com/1995Hamlet" rel='noopener noreferrer'>Facebook</a>
+                            </li>
+
                         </ul>
                     </div>
                 </div>

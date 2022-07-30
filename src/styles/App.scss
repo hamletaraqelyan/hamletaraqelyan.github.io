@@ -3,4 +3,8 @@
 .App {
   min-height: 100vh;
   padding: 0 5.5%;
+  background-color: $backgroundColour;
+  color: white;
+  transition: background-color .5s ease, color .4s ease;
+  will-change: background-color, color;
 }
