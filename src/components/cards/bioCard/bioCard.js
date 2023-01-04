@@ -1,6 +1,7 @@
 import '../card.scss'
 import './bioCard.scss';
 import AnimatedNumbers from "../../animatedNumbers/AnimatedNumbers";
+import {calculateAge} from "../../../helpers/helpers";
 
 const BioCard = () => {
     return (
@@ -12,7 +13,7 @@ const BioCard = () => {
                 <div className='horizontalLine mobileCenter'/>
                 <p className="infoText">
                     Hey! My name is Hamlet. I was born in Armenia and have been living here
-                    for {new Date().getFullYear() - new Date('10/27/1995').getFullYear()} years. I studied at the
+                    for {calculateAge('10/27/1995')} years. I studied at the
                     National University of Architecture and Construction of Armenia as an Engineer and graduated in 2017
                     with - a Bachelor's degree and in 2019 with - Master’s degree.
                 </p>
