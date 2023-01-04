@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200%" height="100%">
+    <defs>
+        <style>.wave{ animation:wave 2s linear infinite; animation-delay:0s; stroke:#e0ff00; stroke-width:2;
+            stroke-dashoffset:0px; stroke-dasharray:80px; stroke-linecap:round; fill:transparent; } @keyframes wave{ 25%{
+            stroke-dashoffset:-80px; } 50%{ stroke-dashoffset:-80px; } 100%{ stroke-dashoffset:-160px; } }
+        </style>
+    </defs>
+    <pattern id="wavePattern" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+        <path class="wave" d="M 0 40 L 50 40 L 80 40 L 54 44 L 54 36 L 80 40 "/>
+    </pattern>
+    <rect x="0" y="0" width="100%" height="100%" fill="url(#wavePattern)"/>
+</svg>
