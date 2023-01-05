@@ -109,4 +109,17 @@
       height: 3px;
     }
   }
+
+  .cta {
+    .arrowIcon {
+      width: 0.8rem;
+      height: 0.8rem;
+    }
+
+    &::before {
+      transform: translate(calc(100% + 3rem), -50%);
+      width: 2rem;
+      height: 2rem;
+    }
+  }
 }
