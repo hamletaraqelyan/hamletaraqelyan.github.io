@@ -24,7 +24,7 @@ const BioCard = () => {
                     server-side applications. I'm eager to take on new challenges and meet new people.
                 </p>
                 <p className="infoText">
-                    <a href="/files/Cv_Hamlet.pdf" target="_blank" rel='nofollow noreferrer noopener' className='cta'>
+                    <a href="/files/CV_Hamlet_Arakelyan.pdf" target="_blank" rel='nofollow noreferrer noopener' className='cta'>
                         Download CV
                         <span className='arrowIcon'/>
                     </a>
