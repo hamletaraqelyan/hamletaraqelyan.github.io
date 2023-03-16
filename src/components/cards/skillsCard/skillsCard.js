@@ -13,15 +13,15 @@ const SkillsCard = () => {
                 <div className="infoText skillsList">
                     <ul>
                         <li>React.js</li>
-                        <li>Next.js</li>
-                        <li>Gatsby.js</li>
-                        <li>Redux</li>
-                        <li>GSAP</li>
-                        <li>JQuery</li>
                         <li>JavaScript</li>
+                        <li>Redux</li>
                         <li>SASS</li>
-                        <li>CSS</li>
                         <li>HTML</li>
+                        <li>Jira</li>
+                        <li>TypeScript</li>
+                        <li>JQuery</li>
+                        <li>GSAP</li>
+                        <li>CSS</li>
                         <li>Git</li>
                         <li>Adobe Photoshop</li>
                     </ul>

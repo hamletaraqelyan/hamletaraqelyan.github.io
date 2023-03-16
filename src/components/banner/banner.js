@@ -11,7 +11,7 @@ const Banner = () => {
                     <h1>Hamlet</h1>
                 </div>
                 <p>
-                    Front-End | React.js developer
+                    Front-End | Software engineer
                 </p>
             </div>
         </div>
