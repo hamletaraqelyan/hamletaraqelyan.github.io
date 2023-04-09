@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.3831de4f.css",
-    "main.js": "/static/js/main.aabe5242.js",
+    "main.js": "/static/js/main.ccab2390.js",
     "static/css/916.bb5f46ed.chunk.css": "/static/css/916.bb5f46ed.chunk.css",
     "static/js/916.00f754b5.chunk.js": "/static/js/916.00f754b5.chunk.js",
     "static/css/313.9bdb7d46.chunk.css": "/static/css/313.9bdb7d46.chunk.css",
     "static/js/313.69cf02f8.chunk.js": "/static/js/313.69cf02f8.chunk.js",
-    "static/css/718.dbb9cb28.chunk.css": "/static/css/718.dbb9cb28.chunk.css",
+    "static/css/718.7e5ab429.chunk.css": "/static/css/718.7e5ab429.chunk.css",
     "static/js/718.e665220e.chunk.js": "/static/js/718.e665220e.chunk.js",
     "static/css/394.d3516265.chunk.css": "/static/css/394.d3516265.chunk.css",
     "static/js/394.9103ab2f.chunk.js": "/static/js/394.9103ab2f.chunk.js",
@@ -184,12 +184,12 @@
     "static/media/arrow.svg": "/static/media/arrow.670d8a8c20ca2ac86ab0ac80766c88e9.svg",
     "static/media/animatedArrow2.svg": "/static/media/animatedArrow2.213472ed8e074ecdb5b9.svg",
     "main.3831de4f.css.map": "/static/css/main.3831de4f.css.map",
-    "main.aabe5242.js.map": "/static/js/main.aabe5242.js.map",
+    "main.ccab2390.js.map": "/static/js/main.ccab2390.js.map",
     "916.bb5f46ed.chunk.css.map": "/static/css/916.bb5f46ed.chunk.css.map",
     "916.00f754b5.chunk.js.map": "/static/js/916.00f754b5.chunk.js.map",
     "313.9bdb7d46.chunk.css.map": "/static/css/313.9bdb7d46.chunk.css.map",
     "313.69cf02f8.chunk.js.map": "/static/js/313.69cf02f8.chunk.js.map",
-    "718.dbb9cb28.chunk.css.map": "/static/css/718.dbb9cb28.chunk.css.map",
+    "718.7e5ab429.chunk.css.map": "/static/css/718.7e5ab429.chunk.css.map",
     "718.e665220e.chunk.js.map": "/static/js/718.e665220e.chunk.js.map",
     "394.d3516265.chunk.css.map": "/static/css/394.d3516265.chunk.css.map",
     "394.9103ab2f.chunk.js.map": "/static/js/394.9103ab2f.chunk.js.map",
@@ -207,6 +207,6 @@
   },
   "entrypoints": [
     "static/css/main.3831de4f.css",
-    "static/js/main.aabe5242.js"
+    "static/js/main.ccab2390.js"
   ]
 }
