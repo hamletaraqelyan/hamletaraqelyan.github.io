@@ -23,7 +23,7 @@ const SkillsCard = () => {
 
             <li>TypeScript</li>
             <li>Next.js</li>
-            <li>JQuery</li>
+            <li>jQuery</li>
             <li>SEO</li>
             <li>Jira</li>
             <li>Figma</li>
