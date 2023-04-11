@@ -15,17 +15,25 @@ const SkillsCard = () => {
         <div className="infoText skillsList">
           <ul>
             <li>JavaScript</li>
-            <li>React.js</li>
             <li>Redux</li>
-            <li>SCSS</li>
-            <li>HTML</li>
-            <li>Jira</li>
-            <li>TypeScript</li>
-            <li>JQuery</li>
-            <li>GSAP</li>
             <li>CSS</li>
+            <li>HTML</li>
             <li>Git</li>
+            <li>Trello</li>
+
+            <li>TypeScript</li>
+            <li>Next.js</li>
+            <li>JQuery</li>
+            <li>SEO</li>
+            <li>Jira</li>
+            <li>Figma</li>
+
+            <li>React.js</li>
+            <li>SCSS</li>
+            <li>Bootstrap</li>
+            <li>GSAP</li>
             <li>Scrum</li>
+            <li>Adobe XD</li>
           </ul>
         </div>
       </div>

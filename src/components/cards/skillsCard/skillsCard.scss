@@ -10,12 +10,12 @@
   }
 
   .skillsList {
-    padding-left: .7rem;
+    padding-left: 0.7rem;
 
     ul {
-      columns: 2;
-      -webkit-columns: 2;
-      -moz-columns: 2;
+      columns: 3;
+      -webkit-columns: 3;
+      -moz-columns: 3;
 
       li {
         list-style-type: disc;
@@ -30,7 +30,7 @@
   }
 }
 
-@media(max-width: 480px) {
+@media (max-width: 480px) {
   .skillsCard {
     padding: 8%;
     flex-direction: column;
