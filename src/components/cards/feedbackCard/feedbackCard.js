@@ -6,49 +6,6 @@ import Input from "./form/input/input";
 import Textarea from "./form/textarea/textarea";
 import FileInput from "./form/fileInput/fileInput";
 
-const REDIRECT_URI = "https://hamletaraqelyan.github.io";
-const CLIENT_ID = "78qavtfz3z3963";
-const CLIENT_SECRET = "Hg80oh2A0BX9r2so";
-const URL_ENCODE = "https%3A%2F%2Fhamletaraqelyan.github.io";
-const AUTH_URL = `https://www.linkedin.com/oauth/v2/authorization?response_type=code&state=state&scope=r_liteprofile&client_id=78qavtfz3z3963&redirect_uri=https%3A%2F%2Fhamletaraqelyan.github.io`;
-const CODE =
-  "AQS8mVcW0iejTBzn0r6R0rk2u-Vas72wo1KLMgo4bxFfMy9ObQgOp1V2lFFNTgV9RoRKYf2xlsYxra1cb9-x2MJL6ksHmgTxv5XJQ8fFtydPBMpj2Z8EIxitxXgLdDGDGraWfRugzcxO5bcJpka_xClm_3-zUa8boScDEJfukdwvEP0sdUrIhOMrLEpFPJw2D6PwKZiTToRg_8k2R78";
-
-const ACCESS_TOKEN =
-  "AQWiDoKdcpoZCn6TUy0Qqmr0I4AfL20VBx_-jNAJRxDP4N-BA6tnlLYP-w46ywtdtZAX0ZefLZAyNOmQMxOCXJNfl-AI-ojm9I5wrQUzaMhe5sRZUuKr4zi6Ldb_dVvhQEb8s8Bfv2y1Ik1rx20_0zmkBfCYI1WESnm9ZfZV7YouMqvCwirW1Y5ew9uGlngVbLKHaNlYqLGAFW9jX6d6cjs_awiQaR5aPIW39x8penJUZ13BeloIbnPfbMLauFThASKoDouqjwy0vgRE1LzOAIzqQxx0LYza8j_02G3K-OKmg9qBdg4DMGDxndBCzh6RdQETsPx6vb_Ix-mac5lXQn_ZmaGZXQ";
-
-`curl https://api.linkedin.com/v2/me -H "Authorization: Bearer AQWiDoKdcpoZCn6TUy0Qqmr0I4AfL20VBx_-jNAJRxDP4N-BA6tnlLYP-w46ywtdtZAX0ZefLZAyNOmQMxOCXJNfl-AI-ojm9I5wrQUzaMhe5sRZUuKr4zi6Ldb_dVvhQEb8s8Bfv2y1Ik1rx20_0zmkBfCYI1WESnm9ZfZV7YouMqvCwirW1Y5ew9uGlngVbLKHaNlYqLGAFW9jX6d6cjs_awiQaR5aPIW39x8penJUZ13BeloIbnPfbMLauFThASKoDouqjwy0vgRE1LzOAIzqQxx0LYza8j_02G3K-OKmg9qBdg4DMGDxndBCzh6RdQETsPx6vb_Ix-mac5lXQn_ZmaGZXQ"`;
-
-const response = {
-  localizedLastName: "Arakelyan",
-  profilePicture: {
-    displayImage: "urn:li:digitalmediaAsset:C4D03AQHEOR5DLKYA2Q",
-  },
-  firstName: {
-    localized: { en_US: "Hamlet" },
-    preferredLocale: { country: "US", language: "en" },
-  },
-  lastName: {
-    localized: { en_US: "Arakelyan" },
-    preferredLocale: { country: "US", language: "en" },
-  },
-  id: "w8M1ocmuh_",
-  localizedFirstName: "Hamlet",
-};
-
-const x = {
-  access_token:
-    "AQWiDoKdcpoZCn6TUy0Qqmr0I4AfL20VBx_-jNAJRxDP4N-BA6tnlLYP-w46ywtdtZAX0ZefLZAyNOmQMxOCXJNfl-AI-ojm9I5wrQUzaMhe5sRZUuKr4zi6Ldb_dVvhQEb8s8Bfv2y1Ik1rx20_0zmkBfCYI1WESnm9ZfZV7YouMqvCwirW1Y5ew9uGlngVbLKHaNlYqLGAFW9jX6d6cjs_awiQaR5aPIW39x8penJUZ13BeloIbnPfbMLauFThASKoDouqjwy0vgRE1LzOAIzqQxx0LYza8j_02G3K-OKmg9qBdg4DMGDxndBCzh6RdQETsPx6vb_Ix-mac5lXQn_ZmaGZXQ",
-  expires_in: 5183999,
-  scope: "r_liteprofile",
-};
-("`curl -ik -X POST https://www.linkedin.com/oauth/v2/accessToken \
-   -d grant_type=authorization_code \
-   -d code=AQS8mVcW0iejTBzn0r6R0rk2u-Vas72wo1KLMgo4bxFfMy9ObQgOp1V2lFFNTgV9RoRKYf2xlsYxra1cb9-x2MJL6ksHmgTxv5XJQ8fFtydPBMpj2Z8EIxitxXgLdDGDGraWfRugzcxO5bcJpka_xClm_3-zUa8boScDEJfukdwvEP0sdUrIhOMrLEpFPJw2D6PwKZiTToRg_8k2R78 \
-   -d redirect_uri=https%3A%2F%2Fhamletaraqelyan.github.io \
-   -d client_id=78qavtfz3z3963 \
-   -d client_secret=Hg80oh2A0BX9r2so`");
-
 const FeedbackCard = () => {
   const [showPopup, setShowPopup] = useState(false);
   const [previewData, setPreviewData] = useState({});
@@ -113,8 +70,6 @@ const FeedbackCard = () => {
       component: Textarea,
     },
   ];
-
-  const displayImageUrl = `https://media.licdn.com/dms/image/urn:li:digitalmediaAsset:C4D03AQHEOR5DLKYA2Q`;
 
   return (
     <>
