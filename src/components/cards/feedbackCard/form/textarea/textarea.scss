@@ -1,0 +1,40 @@
+@import "src/styles/variables";
+
+.textareaWrapper {
+  width: 100%;
+  margin-left: 0 !important;
+
+  textarea {
+    min-height: 60px;
+    max-height: 150px;
+    padding: 10px 10px 10px 0;
+    width: 100% !important;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid $borderColor;
+    border-top: none;
+    border-left: none;
+    transition: border-color 0.3s ease;
+
+    &.error {
+      border-color: $errorColor;
+
+      & ~ label sup {
+        color: $errorColor;
+      }
+    }
+
+    &:focus,
+    &:not(:placeholder-shown) {
+      border-color: $cyan;
+      & ~ label {
+        transform: translateY(-180%) scale(0.7);
+        opacity: 0.6;
+      }
+    }
+  }
+
+  label {
+    top: 11px;
+  }
+}

@@ -1,16 +1,33 @@
 @import "fonts/index";
 
 //Fonts
-$fontPlayfair: 'Playfair Display', sans-serif;
-$fontLato: 'Lato', sans-serif;
-$fontCinzel: 'Cinzel', sans-serif;
+$fontPlayfair: "Playfair Display", sans-serif;
+$fontLato: "Lato", sans-serif;
+$fontCinzel: "Cinzel", sans-serif;
 //Fonts
 
 //Colors
-$backgroundColour: #212121;
+$backgroundColour: #202124;
+$textColor: #e8eaed;
 $backgroundColourLight: #dde4e7;
-$cyan: #67e0e1;
+$borderColor: #333333;
 $lime: #cbfa10;
+$cyan: #67e0e1;
 $cyanLight: #37474f;
 $textColorLight: #222222;
+$errorColor: #ff153f;
 //Colors
+
+//mixins
+@mixin flexBox($alignProp, $justifyProp) {
+  display: flex;
+  align-items: $alignProp;
+  justify-content: $justifyProp;
+}
+
+@mixin backgroundImage($url, $size) {
+  background-image: url(#{$url});
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: $size;
+}

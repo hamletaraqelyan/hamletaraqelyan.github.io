@@ -1,0 +1,55 @@
+@import "src/styles/variables";
+
+.inputWrapper {
+  width: calc(50% - 0.5rem);
+  position: relative;
+  margin-bottom: 2rem;
+
+  &:not(.fullWidth):nth-child(2n) {
+    margin-left: 1rem;
+  }
+
+  label {
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 0;
+    transform: translateY(-50%);
+    line-height: 1;
+    pointer-events: none;
+    transform-origin: left center;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    will-change: transform, opacity;
+  }
+
+  input {
+    outline: none;
+    border: none;
+    padding: 10px 10px 8px 0;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 1px solid $borderColor;
+    transition: border-color 0.3s ease;
+    font-family: $fontLato !important;
+
+    &:focus,
+    &:not(:placeholder-shown) {
+      border-color: $cyan !important;
+      & ~ label {
+        transform: translateY(-150%) scale(0.7);
+        opacity: 0.6;
+      }
+    }
+
+    &.error {
+      border-color: $errorColor !important;
+
+      & ~ label sup {
+        color: $errorColor;
+      }
+    }
+  }
+
+  &.fullWidth {
+    width: 100%;
+  }
+}

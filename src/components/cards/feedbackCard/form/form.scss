@@ -1,0 +1,37 @@
+@import "src/styles/variables";
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  padding-block: 1.5rem 2rem;
+  font-size: 1.1vw;
+
+  button {
+    border: none;
+    cursor: pointer;
+  }
+
+  button,
+  textarea,
+  input {
+    font-family: $fontLato;
+    color: $textColor;
+    outline: none !important;
+  }
+
+  textarea,
+  input {
+    &:hover {
+      border-color: lighten($color: #333333, $amount: 20);
+    }
+
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus,
+    &:-webkit-autofill:active {
+      -webkit-transition: background-color 50000s 50000s;
+      transition: background-color 50000s 50000s;
+      -webkit-text-fill-color: $textColor !important;
+    }
+  }
+}

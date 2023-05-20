@@ -4,7 +4,7 @@
   min-height: 100vh;
   padding: 0 5.5%;
   background-color: $backgroundColour;
-  color: white;
-  transition: background-color .5s ease, color .4s ease;
+  color: $textColor;
+  transition: background-color 0.5s ease, color 0.4s ease;
   will-change: background-color, color;
 }

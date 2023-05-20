@@ -48,30 +48,34 @@ const PortfolioCard = () => {
             },
           }}
         >
-          {portfolioData?.map((work, i) => (
-            <SwiperSlide key={i}>
-              <a
-                href={work.url}
-                target="_blank"
-                rel="noreferrer noopener"
-                className="workItem"
-                key={i}
-              >
-                <div className="workItemImage">
-                  <div
-                    className="workItemImageItem"
-                    style={{ backgroundImage: `url(${work.image})` }}
-                  />
-                </div>
-                <p className="workItemSubtitle infoLabel textUppercase textCyan">
-                  {work.subtitle}
-                </p>
-                <p className="fontPlayfair workItemTitle textUppercase">
-                  {work.title}
-                </p>
-              </a>
-            </SwiperSlide>
-          ))}
+          {portfolioData?.map((work, i) =>
+            !work.hide ? (
+              <SwiperSlide key={i}>
+                <a
+                  href={work.url}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="workItem"
+                  key={i}
+                >
+                  <div className="workItemImage">
+                    <div
+                      className="workItemImageItem"
+                      style={{ backgroundImage: `url(${work.image})` }}
+                    />
+                  </div>
+                  <p className="workItemSubtitle infoLabel textUppercase textCyan">
+                    {work.subtitle}
+                  </p>
+                  <p className="fontPlayfair workItemTitle textUppercase">
+                    {work.title}
+                  </p>
+                </a>
+              </SwiperSlide>
+            ) : (
+              <></>
+            )
+          )}
         </Swiper>
         <div
           className="swiperBtn prev"

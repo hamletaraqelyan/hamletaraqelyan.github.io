@@ -1,0 +1,36 @@
+@import "src/styles/variables";
+
+.commentWrapper {
+  &Text {
+    line-height: 2;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px rgba(#000, 0.2);
+  }
+
+  &Author {
+    @include flexBox(center, space-between);
+
+    &Information {
+      @include flexBox(center, unset);
+
+      &Avatar {
+        width: 4rem;
+        height: 4rem;
+        margin-right: 1.5rem;
+        border-radius: 50%;
+        background-color: wheat;
+        @include backgroundImage(
+          "https://ld-wp73.template-help.com/wordpress/prod_17878/v2/wp-content/uploads/2018/05/richard-testi3.jpg",
+          cover
+        );
+      }
+
+      &Name {
+        .textCyan {
+          letter-spacing: 2px;
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+  }
+}

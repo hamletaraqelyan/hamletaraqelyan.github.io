@@ -9,7 +9,14 @@
     "url": "https://na.dev.apps.codics.solutions/",
     "title": "NATIONAL ASSEMBLY",
     "subtitle": "Armenian",
-    "image": "/media/works/logos/na.png"
+    "image": "/media/works/logos/na.png",
+    "hide": true
+  },
+  {
+    "url": "https://yerevanpark.am/en",
+    "title": "YEREVAN PARK",
+    "subtitle": "AMUSEMENT PARK",
+    "image": "/media/works/logos/yp.png"
   },
   {
     "url": "https://imnairi.am/",
