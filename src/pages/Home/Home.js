@@ -1,6 +1,6 @@
 import React from "react";
-import Banner from "components/banner/banner";
-import CardsWrapper from "components/cardsWrapper/cardsWrapper";
+import Banner from "../../components/banner/banner";
+import CardsWrapper from "../../components/cardsWrapper/cardsWrapper";
 
 function Home() {
   return (

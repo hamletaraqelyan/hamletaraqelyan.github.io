@@ -6,8 +6,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/header/header";
 import Menu from "./components/menu/menu";
 import "./styles/App.scss";
-const Home = lazy(() => import("pages/Home/Home"));
-const Test = lazy(() => import("pages/Test/Test"));
+const Home = lazy(() => import("./pages/Home/Home"));
+const Test = lazy(() => import("./pages/Test/Test"));
 
 const App = () => {
   const [showMenu, setShowMenu] = useState(false);
