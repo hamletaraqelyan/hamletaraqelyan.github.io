@@ -20,7 +20,45 @@ function Test() {
   ];
   return (
     <div className="testPage">
-      <LazyImage src={""} />
+      <h5>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        Hello Patrizio, it's great to meet you. My name is Hamlet Arakelyan, and
+        I'm excited to have the opportunity to speak with you today about the
+        Front-end developer role and learn more about the company.
+        <br />
+        <br />
+        I'm a Front End Software Engineer. Im from Armenia and currently live in
+        Armenia.
+        <br />
+        <br />
+        I graduated from the National University of Architecture and
+        Construction of Armenia in 2019 with a Master's degree.
+        <br />
+        <br />
+        Currently, I'm working on EPAM Anywhere as a Senior Software engineer.
+        In my current role, I specialize in JavaScript, TypeScript, React.js and
+        other front end technologies, and I'm always looking to learn and grow
+        in my field.
+        <br />
+        <br />
+        Before joining EPAM Anywhere, I worked for over three years at Codics
+        Producers Company as a Front End web developer.
+        <br />
+        <br />
+        Outside of work, I enjoy playing football on PlayStation and going for
+        night biking. These activities help me clear my mind and recharge my
+        creativity.
+      </h5>
+
       {images.map((img) => (
         <></>
         // <LazyImage src={img} />
