@@ -131,9 +131,8 @@
     }
 
     &::before {
-      transform: translate(calc(100% + 3rem), -50%);
-      width: 2rem;
-      height: 2rem;
+      width: 3rem;
+      height: 3rem;
     }
   }
 }

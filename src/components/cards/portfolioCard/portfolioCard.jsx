@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { Fragment, useRef } from "react";
 import "./portfolioCard.scss";
 import AnimatedNumbers from "../../animatedNumbers/AnimatedNumbers";
 import { Autoplay, Navigation } from "swiper";
@@ -73,7 +73,7 @@ const PortfolioCard = () => {
                 </a>
               </SwiperSlide>
             ) : (
-              <></>
+              <Fragment key={i}></Fragment>
             )
           )}
         </Swiper>
