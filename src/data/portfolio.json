@@ -3,7 +3,8 @@
     "url": "https://maeutica.com/",
     "title": "mæutica",
     "subtitle": "Branding agency",
-    "image": "/media/works/logos/maeutica.png"
+    "image": "/media/works/logos/maeutica.png",
+    "hide": true
   },
   {
     "url": "https://na.dev.apps.codics.solutions/",
@@ -17,6 +18,12 @@
     "title": "YEREVAN PARK",
     "subtitle": "AMUSEMENT PARK",
     "image": "/media/works/logos/yp.png"
+  },
+  {
+    "url": "https://codics.am/",
+    "title": "CODICS",
+    "subtitle": "SOFTWARE PRODUCERS",
+    "image": "/media/works/logos/codics.svg"
   },
   {
     "url": "https://imnairi.am/",
@@ -52,7 +59,8 @@
     "url": "https://cnbdubai.com/",
     "title": "CNB",
     "subtitle": "House of beauty",
-    "image": "/media/works/logos/cnb.png"
+    "image": "/media/works/logos/cnb.png",
+    "hide": true
   },
   {
     "url": "https://dmitryishkhanov.com/",
