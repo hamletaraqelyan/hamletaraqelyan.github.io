@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.da680c99.css",
-    "main.js": "/static/js/main.1456ac28.js",
+    "main.js": "/static/js/main.4566317c.js",
     "static/css/508.c3de0338.chunk.css": "/static/css/508.c3de0338.chunk.css",
-    "static/js/508.9b9479f6.chunk.js": "/static/js/508.9b9479f6.chunk.js",
+    "static/js/508.cebb03b2.chunk.js": "/static/js/508.cebb03b2.chunk.js",
     "static/js/685.733032de.chunk.js": "/static/js/685.733032de.chunk.js",
     "static/js/141.d6c7bf83.chunk.js": "/static/js/141.d6c7bf83.chunk.js",
     "static/media/PlayfairDisplay-SemiBold.eot": "/static/media/PlayfairDisplay-SemiBold.7ef686c93a43cd60de63.eot",
@@ -169,14 +169,14 @@
     "static/media/arrow.svg": "/static/media/arrow.670d8a8c20ca2ac86ab0ac80766c88e9.svg",
     "static/media/animatedArrow2.svg": "/static/media/animatedArrow2.6dfac4533a600dae3564.svg",
     "main.da680c99.css.map": "/static/css/main.da680c99.css.map",
-    "main.1456ac28.js.map": "/static/js/main.1456ac28.js.map",
+    "main.4566317c.js.map": "/static/js/main.4566317c.js.map",
     "508.c3de0338.chunk.css.map": "/static/css/508.c3de0338.chunk.css.map",
-    "508.9b9479f6.chunk.js.map": "/static/js/508.9b9479f6.chunk.js.map",
+    "508.cebb03b2.chunk.js.map": "/static/js/508.cebb03b2.chunk.js.map",
     "685.733032de.chunk.js.map": "/static/js/685.733032de.chunk.js.map",
     "141.d6c7bf83.chunk.js.map": "/static/js/141.d6c7bf83.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da680c99.css",
-    "static/js/main.1456ac28.js"
+    "static/js/main.4566317c.js"
   ]
 }
