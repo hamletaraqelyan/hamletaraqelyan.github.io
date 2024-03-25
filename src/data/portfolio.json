@@ -31,6 +31,21 @@
     "subtitle": "Insurance",
     "image": "/media/works/logos/nairi.png"
   },
+
+  {
+    "url": "https://what-money.com/",
+    "title": "What Money",
+    "subtitle": "START SELLING INSTANTLY",
+    "image": "/media/works/logos/whatmoney.svg"
+  },
+
+  {
+    "url": "https://inura.netlify.app/",
+    "title": "Inura",
+    "subtitle": "Stars whisper fate's secrets.",
+    "image": "/media/works/logos/inura.svg"
+  },
+
   {
     "url": "https://musicroom.info/",
     "subtitle": "GREAT CONCERTS TO BE MEASURED",
