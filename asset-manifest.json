@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.da680c99.css",
-    "main.js": "/static/js/main.4566317c.js",
-    "static/css/508.c3de0338.chunk.css": "/static/css/508.c3de0338.chunk.css",
-    "static/js/508.cebb03b2.chunk.js": "/static/js/508.cebb03b2.chunk.js",
-    "static/js/685.733032de.chunk.js": "/static/js/685.733032de.chunk.js",
-    "static/js/141.d6c7bf83.chunk.js": "/static/js/141.d6c7bf83.chunk.js",
+    "main.css": "/static/css/main.80d41f99.css",
+    "main.js": "/static/js/main.bdf62c84.js",
+    "static/css/252.a9b7ed8c.chunk.css": "/static/css/252.a9b7ed8c.chunk.css",
+    "static/js/252.5d800f45.chunk.js": "/static/js/252.5d800f45.chunk.js",
+    "static/js/316.5d0f4d09.chunk.js": "/static/js/316.5d0f4d09.chunk.js",
+    "static/js/433.e88361b2.chunk.js": "/static/js/433.e88361b2.chunk.js",
     "static/media/PlayfairDisplay-SemiBold.eot": "/static/media/PlayfairDisplay-SemiBold.7ef686c93a43cd60de63.eot",
     "static/media/PlayfairDisplay-Medium.eot": "/static/media/PlayfairDisplay-Medium.b75f9fb11f5e56cf77b2.eot",
     "static/media/PlayfairDisplay-ExtraBold.eot": "/static/media/PlayfairDisplay-ExtraBold.9b36f32d393d6e291a69.eot",
@@ -156,27 +156,23 @@
     "static/media/Lato-LightItalic.woff2": "/static/media/Lato-LightItalic.0ea7656d6a58e3f9853b.woff2",
     "static/media/Lato-HairlineItalic.woff2": "/static/media/Lato-HairlineItalic.bf1e0782291efebe06da.woff2",
     "static/media/trees.webp": "/static/media/trees.7e26915e38323557350d.webp",
-    "static/media/netlify.svg": "/static/media/netlify.1e9d34170b56f5d0fe7d.svg",
     "index.html": "/index.html",
     "static/media/phone.svg": "/static/media/phone.581ee0492886636fd8388207660f4f86.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.3d09832ce1071a9f2323bd0d77090b57.svg",
     "static/media/rightArrow.svg": "/static/media/rightArrow.b63b0345855e578d8b1d.svg",
     "static/media/github.svg": "/static/media/github.1251ac4024852be251c8f4accfd6eba0.svg",
-    "static/media/facebook.svg": "/static/media/facebook.cf59ad379b2ef7c33fc2f64204a15882.svg",
     "static/media/mail.svg": "/static/media/mail.78e40e2730816986bc284312b85b1e76.svg",
-    "static/media/animatedArrow.svg": "/static/media/animatedArrow.b4363430fb5443798d77.svg",
     "static/media/telegram.svg": "/static/media/telegram.bdc48388bc401d8949500e255417c703.svg",
     "static/media/arrow.svg": "/static/media/arrow.670d8a8c20ca2ac86ab0ac80766c88e9.svg",
-    "static/media/animatedArrow2.svg": "/static/media/animatedArrow2.6dfac4533a600dae3564.svg",
-    "main.da680c99.css.map": "/static/css/main.da680c99.css.map",
-    "main.4566317c.js.map": "/static/js/main.4566317c.js.map",
-    "508.c3de0338.chunk.css.map": "/static/css/508.c3de0338.chunk.css.map",
-    "508.cebb03b2.chunk.js.map": "/static/js/508.cebb03b2.chunk.js.map",
-    "685.733032de.chunk.js.map": "/static/js/685.733032de.chunk.js.map",
-    "141.d6c7bf83.chunk.js.map": "/static/js/141.d6c7bf83.chunk.js.map"
+    "main.80d41f99.css.map": "/static/css/main.80d41f99.css.map",
+    "main.bdf62c84.js.map": "/static/js/main.bdf62c84.js.map",
+    "252.a9b7ed8c.chunk.css.map": "/static/css/252.a9b7ed8c.chunk.css.map",
+    "252.5d800f45.chunk.js.map": "/static/js/252.5d800f45.chunk.js.map",
+    "316.5d0f4d09.chunk.js.map": "/static/js/316.5d0f4d09.chunk.js.map",
+    "433.e88361b2.chunk.js.map": "/static/js/433.e88361b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da680c99.css",
-    "static/js/main.4566317c.js"
+    "static/css/main.80d41f99.css",
+    "static/js/main.bdf62c84.js"
   ]
 }
