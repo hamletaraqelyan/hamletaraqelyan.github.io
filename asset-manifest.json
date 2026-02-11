@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.80d41f99.css",
-    "main.js": "/static/js/main.bdf62c84.js",
+    "main.js": "/static/js/main.5c43ae5e.js",
     "static/css/252.a9b7ed8c.chunk.css": "/static/css/252.a9b7ed8c.chunk.css",
-    "static/js/252.5d800f45.chunk.js": "/static/js/252.5d800f45.chunk.js",
+    "static/js/252.f929c7b2.chunk.js": "/static/js/252.f929c7b2.chunk.js",
     "static/js/316.5d0f4d09.chunk.js": "/static/js/316.5d0f4d09.chunk.js",
     "static/js/433.e88361b2.chunk.js": "/static/js/433.e88361b2.chunk.js",
     "static/media/PlayfairDisplay-SemiBold.eot": "/static/media/PlayfairDisplay-SemiBold.7ef686c93a43cd60de63.eot",
@@ -165,14 +165,14 @@
     "static/media/telegram.svg": "/static/media/telegram.bdc48388bc401d8949500e255417c703.svg",
     "static/media/arrow.svg": "/static/media/arrow.670d8a8c20ca2ac86ab0ac80766c88e9.svg",
     "main.80d41f99.css.map": "/static/css/main.80d41f99.css.map",
-    "main.bdf62c84.js.map": "/static/js/main.bdf62c84.js.map",
+    "main.5c43ae5e.js.map": "/static/js/main.5c43ae5e.js.map",
     "252.a9b7ed8c.chunk.css.map": "/static/css/252.a9b7ed8c.chunk.css.map",
-    "252.5d800f45.chunk.js.map": "/static/js/252.5d800f45.chunk.js.map",
+    "252.f929c7b2.chunk.js.map": "/static/js/252.f929c7b2.chunk.js.map",
     "316.5d0f4d09.chunk.js.map": "/static/js/316.5d0f4d09.chunk.js.map",
     "433.e88361b2.chunk.js.map": "/static/js/433.e88361b2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.80d41f99.css",
-    "static/js/main.bdf62c84.js"
+    "static/js/main.5c43ae5e.js"
   ]
 }
