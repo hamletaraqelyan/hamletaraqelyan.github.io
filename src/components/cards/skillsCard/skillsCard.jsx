@@ -20,6 +20,7 @@ const SkillsCard = () => {
               <li>Next.js</li>
               <li>TypeScript</li>
               <li>JavaScript</li>
+              <li>jQuery</li>
               <li>HTML5</li>
             </ul>
           </div>
