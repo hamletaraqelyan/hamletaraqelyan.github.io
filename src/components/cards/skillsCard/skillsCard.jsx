@@ -13,28 +13,47 @@ const SkillsCard = () => {
         <h2 className="infoTitle textUppercase fontPlayfair">Skills</h2>
         <div className="horizontalLine right mobileCenter" />
         <div className="infoText skillsList">
-          <ul>
-            <li>JavaScript</li>
-            <li>Redux</li>
-            <li>CSS</li>
-            <li>HTML</li>
-            <li>Git</li>
-            <li>Trello</li>
-
-            <li>TypeScript</li>
-            <li>Next.js</li>
-            <li>jQuery</li>
-            <li>SEO</li>
-            <li>Jira</li>
-            <li>Figma</li>
-
-            <li>React.js</li>
-            <li>SCSS</li>
-            <li>Bootstrap</li>
-            <li>GSAP</li>
-            <li>Scrum</li>
-            <li>Adobe XD</li>
-          </ul>
+          <div>
+            <p className="infoLabel textCyan textUppercase">Frontend</p>
+            <ul>
+              <li>React</li>
+              <li>Next.js</li>
+              <li>TypeScript</li>
+              <li>JavaScript</li>
+              <li>HTML5</li>
+            </ul>
+          </div>
+          <div>
+            <p className="infoLabel textCyan textUppercase">STATE MANAGEMENT</p>
+            <ul>
+              <li>Redux</li>
+              <li>React Context</li>
+            </ul>
+          </div>
+          <div>
+            <p className="infoLabel textCyan textUppercase">
+              Styling & Design Systems
+            </p>
+            <ul>
+              <li>SCSS</li>
+              <li>CSS</li>
+              <li>Less</li>
+              <li>Ant Design</li>
+              <li>Bootstrap</li>
+              <li>GSAP</li>
+            </ul>
+          </div>
+          <div>
+            <p className="infoLabel textCyan textUppercase">Tools & Workflow</p>
+            <ul>
+              <li>Git</li>
+              <li>Jira</li>
+              <li>Trello</li>
+              <li>Figma</li>
+              <li>Adobe XD</li>
+              <li>Azure DevOps</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
