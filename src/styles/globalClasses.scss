@@ -76,7 +76,7 @@
     background: center no-repeat url("../media/icons/rightArrow.svg");
     background-size: contain;
     margin-left: 7px;
-    transition: transform 0.25s 0.45s cubic-bezier(0, 0, 0.5, 2);
+    transition: transform 0.25s 0.2s cubic-bezier(0, 0, 0.5, 2);
   }
 
   &::before {
@@ -89,7 +89,8 @@
     height: 3vw;
     background: rgba($cyan, 0.9);
     border-radius: 50px;
-    transition: transform 0.25s 0.25s cubic-bezier(0, 0, 0.5, 2),
+    transition:
+      transform 0.25s 0.25s cubic-bezier(0, 0, 0.5, 2),
       width 0.25s cubic-bezier(0, 0, 0.5, 2);
     z-index: -1;
     will-change: transform, width;
@@ -99,7 +100,8 @@
     &::before {
       width: 100%;
       transform: translate(-100%, -50%);
-      transition: transform 0.25s cubic-bezier(0, 0, 0.5, 2),
+      transition:
+        transform 0.25s cubic-bezier(0, 0, 0.5, 2),
         width 0.25s 0.25s cubic-bezier(0, 0, 0.5, 2);
     }
 
