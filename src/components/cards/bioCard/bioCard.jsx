@@ -35,7 +35,7 @@ const BioCard = () => {
         </p>
         <p className="infoText">
           <a
-            href="/files/Hamlet_Arakelyan_Resume.pdf"
+            href="/files/Arakelyan_Hamlet_CV.pdf"
             target="_blank"
             rel="nofollow noreferrer noopener"
             className="cta"
